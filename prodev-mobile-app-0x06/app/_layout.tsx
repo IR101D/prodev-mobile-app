@@ -5,7 +5,9 @@ export default function RootLayout() {
     <Stack screenOptions={{
       headerShown: false,
     }}>
-      
+      <Stack.Screen name="/index" />
+      <Stack.Screen name="join" />
+      <Stack.Screen name="signin" />
         <Tabs.Screen name="profile" options={{
         title: 'Profile',
          headerShown: false,
